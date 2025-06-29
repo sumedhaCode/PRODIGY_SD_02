@@ -1,60 +1,70 @@
-# PRODIGY_SD_02
-# 🎯 Guessing Game – Full Stack Project
+# Getting Started with Create React App
 
-This is a full-stack **Guessing Game** built as part of Task-02 at **Prodigy Infotech**. The app challenges users to guess a randomly generated number with real-time feedback until they win. And when they do… 🎉 there's confetti to celebrate!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 📌 Problem Statement
-> Create a program that generates a random number and challenges the user to guess it. After each guess, the program should tell the user if the guess was too high or too low, and continue until the correct number is guessed. Finally, display the total number of attempts it took to win the game.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🛠️ Tech Stack-----
+### `npm start`
 
-### 🔹 Backend
-- **Java**: Core game logic using `Random`, `Scanner`, and loops
-- **Node.js**: REST API to relay user guesses and send back real-time responses
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 🔹 Frontend
-- **React.js**: Interactive UI for user inputs and feedback
-- `react-confetti`: Confetti animation on winning
-- `@react-hook/window-size`: Responsive confetti display
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## ✨ Features
+### `npm test`
 
-- ✅ Real-time feedback: too high / too low
-- 🔁 Reset button for replaying the game anytime
-- 🎉 Confetti on correct guess
-- 🌈 Gradient background theme for a warm and playful experience
-- 🧠 Attempts counter to track user performance
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 🚀 How to Run
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 1. Clone the Repo
-```bash
-git clone https://github.com/yourusername/guessing-game
-cd guessing-game
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. Start the Backend Server
-bash
-cd guessing-game-server
-npm install
-npm start
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. Start the Frontend
-bash
-cd guessing-game-ui
-npm install
-npm start
-Make sure your backend runs on http://localhost:5000 and React app on http://localhost:3000.
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-🤓 What I Learned
-Full-stack app structure and communication flow
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-State management and dynamic feedback in React
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-API setup and request handling using Express
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-UI enhancements with animations and responsive design...
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
